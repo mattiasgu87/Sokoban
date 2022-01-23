@@ -1,0 +1,61 @@
+﻿.cell {
+    border: 0;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    row-gap: 0;
+}
+
+div.gridRow {
+    margin: 0;
+    padding: 0;
+    grid-gap: 0px;
+    grid-column-gap: 0px;
+    margin-bottom: 0;
+    grid-row-gap: 0;
+    row-gap: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: flex; 
+}
+body { 
+    background-color: lightgray;
+}
+
+.tile-space {
+    background-color: forestgreen;
+    background-image: url("floor.png");
+}
+
+.tile-wall {
+    background-color: black;
+    background-image: url("wall.png");
+}
+
+.tile-playerstart {
+    background-color: purple;
+}
+
+.tile-goal {
+    background-color: yellow;
+    background-image: url("goal2.png");
+}
+
+.entity-block {
+    background-color: brown;
+    background-image: url("box.png");
+}
+
+.entity-block-goal {
+    background-color: lightcoral;
+    background-image: url("boxGoal.png");
+}
+
+.entity-player {
+    background-image: url("player.png");
+    /*background-size: 100% 100%;*/ /*stretching for future scaling*/
+}
+
